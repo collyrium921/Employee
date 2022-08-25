@@ -1,0 +1,10 @@
+<mat-sidenav #sidenav mode="side" opened class="sidenav" [fixedTopGap]="0">
+    <div class="sidenav-items">
+        <div [ngClass]="isListCompany?'selected':''" (click)="goToListEmployee()">
+            Company list
+        </div>
+        <div [ngClass]="!isListCompany?'selected':''" (click)="goToAddEmployee()">
+            Add Company
+        </div>
+    </div>
+</mat-sidenav>
