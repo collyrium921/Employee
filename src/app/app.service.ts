@@ -16,6 +16,12 @@ export class AppService {
     return this.http.delete(this.url+'/'+emp.id).pipe(catchError(this.handleError))
   }
   
+  addCompany(data:any) {
+      return this.http.post(this.url, data)
+      .pipe(
+        catchError(this.handleError)
+      )
+  }
   handleError(error: HttpErrorResponse) {
     if (error.error instanceof ErrorEvent) {
       console.error('An error occurred:', error.error.message);

@@ -5,3 +5,19 @@
     left: 0;
     right: 0;
 }
+
+.company-info mat-form-field,
+.employee-info mat-form-field,
+.skills-info mat-form-field,
+.education-info mat-form-field {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.mat-radio-button {
+    margin: 0 12px;
+}
+
+mat-error {
+    font-size: 0.8rem;
+}
