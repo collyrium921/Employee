@@ -27,7 +27,7 @@
             <th mat-header-cell *matHeaderCellDef> Action </th>
             <td mat-cell *matCellDef="let emp; let i=index ">
                 <mat-icon class="edit ">create</mat-icon>
-                <mat-icon class="delete " (click)="openDialog(i, emp)">delete</mat-icon>
+                <mat-icon class="delete " (click)="deleteCompany(emp)">delete</mat-icon>
             </td>
             <!---<td mat-cell *matCellDef="let employee "> {{employee.symbol}} </td> -->
         </ng-container>
