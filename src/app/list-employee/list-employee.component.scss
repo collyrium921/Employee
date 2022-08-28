@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+td.mat-cell,
+th.mat-header-cell {
+    // border-right: 1px solid black;
+    padding-left: 2rem;
+}
+
+mat-icon {
+    cursor: pointer;
+}
+
+.edit {
+    color: rgb(6, 153, 153);
+    margin-right: 1rem;
+}
+
+.delete {
+    color: red;
+}

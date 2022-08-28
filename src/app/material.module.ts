@@ -43,6 +43,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
+import { MatFormFieldModule } from '@angular/material/form-field';
 // import {CdkMenuModule} from '@angular/cdk/menu';
 // import {DialogModule} from '@angular/cdk/dialog';
 
@@ -52,6 +53,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
     CdkAccordionModule,
     ClipboardModule,
     // CdkMenuModule,
+    MatFormFieldModule,
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
