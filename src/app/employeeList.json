@@ -1,613 +1,571 @@
 {
-  "employeeList": [
-    {
-      "id": "1",
-      "companyName": "Google",
-      "address": "11, Test Building, Test street, Test",
-      "email": "test@gmail.com",
-      "phoneNumber": "+1111111111111",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+    "employeeList": [{
+            "id": 1,
+            "companyName": "Google",
+            "address": "11, Test Building, Test street, Test",
+            "email": "test@gmail.com",
+            "phoneNumber": "+1111111111111",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "companyName": "Amazon",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 2,
+            "companyName": "Amazon",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "companyName": "Amazon",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 3,
+            "companyName": "Amazon",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "companyName": "Customer Glu",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 4,
+            "companyName": "Customer Glu",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "companyName": "Microsoft",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 5,
+            "companyName": "Microsoft",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "companyName": "Ultragenic",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 6,
+            "companyName": "Ultragenic",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "companyName": "Deloitte",
-      "address": "11, Test Building, Test street, Test",
-      "email": "amazon@gmail.com",
-      "phoneNumber": "+1113232424323",
-      "empInfo": [
-        {
-          "empName": "June",
-          "designation": "1",
-          "joinDate": "01/01/2021",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Angular",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "HTML",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "CSS",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 7,
+            "companyName": "Deloitte",
+            "address": "11, Test Building, Test street, Test",
+            "email": "amazon@gmail.com",
+            "phoneNumber": "+1113232424323",
+            "empInfo": [{
+                    "empName": "June",
+                    "designation": "1",
+                    "joinDate": "01/01/2021",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Angular",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "HTML",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "CSS",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                },
+                {
+                    "empName": "July",
+                    "designation": "1",
+                    "joinDate": "01/01/2020",
+                    "email": "june@gmail.com",
+                    "phoneNumber": "+1111111111111",
+                    "skillInfo": [{
+                            "skillName": "Java",
+                            "skillRating": "4"
+                        },
+                        {
+                            "skillName": "SQL",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "UI",
+                            "skillRating": "5"
+                        },
+                        {
+                            "skillName": "JavaScript",
+                            "skillRating": "5"
+                        }
+                    ],
+                    "eductionInfo": [{
+                            "instituteName": "Test institute",
+                            "courseName": "BE CSE",
+                            "completedYear": "Mar 2021"
+                        },
+                        {
+                            "instituteName": "ABC institute",
+                            "courseName": "BE ECE",
+                            "completedYear": "Jan 2020"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "empName": "July",
-          "designation": "1",
-          "joinDate": "01/01/2020",
-          "email": "june@gmail.com",
-          "phoneNumber": "+1111111111111",
-          "skillInfo": [
-            {
-              "skillName": "Java",
-              "skillRating": "4"
-            },
-            {
-              "skillName": "SQL",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "UI",
-              "skillRating": "5"
-            },
-            {
-              "skillName": "JavaScript",
-              "skillRating": "5"
-            }
-          ],
-          "eductionInfo": [
-            {
-              "instituteName": "Test institute",
-              "courseName": "BE CSE",
-              "completedYear": "Mar 2021"
-            },
-            {
-              "instituteName": "ABC institute",
-              "courseName": "BE ECE",
-              "completedYear": "Jan 2020"
-            }
-          ]
+            "id": 1661711813827,
+            "companyName": "Visual",
+            "address": "",
+            "email": "kajal@gmail.com",
+            "phoneNumber": "+9123103831212",
+            "empInfo": [{
+                "empName": "Kajal",
+                "designation": "1",
+                "email": "K@sd.ad",
+                "phoneNumber": "+91892437492",
+                "skillInfo": [{
+                    "skillName": "JavaScript",
+                    "skillRating": "4 "
+                }],
+                "educationInfo": [{
+                    "instituteName": "ABES",
+                    "courseName": "B.Tech",
+                    "completedYear": "July, 2021"
+                }]
+            }]
         }
-      ]
-    },
-    {
-      "id": 1661711813827,
-      "companyName": "Visual",
-      "address": "",
-      "email": "kajal@gmail.com",
-      "phoneNumber": "+9123103831212",
-      "empInfo": [
-        {
-          "empName": "Kajal",
-          "designation": "1",
-          "email": "K@sd.ad",
-          "phoneNumber": "+91892437492",
-          "skillInfo": [
-            {
-              "skillName": "JavaScript",
-              "skillRating": "4 "
-            }
-          ],
-          "educationInfo": [
-            {
-              "instituteName": "ABES",
-              "courseName": "B.Tech",
-              "completedYear": "July, 2021"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
