@@ -1,27 +1,28 @@
-# CustomerGluAssignment
+# Customer Glu Assignment KAJAL SINGHAL
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## Technology Used
+	Angular
+	HTML
+	TypeScript
+	SCSS
+	JSON
 
-## Development server
+## Information about the assignment
+	 List, delete, add screens are completed
+	 Pending (list screen pagination and sorting, edit screen)
+	 complete project resides in 'master' branch
+## Run commands
+	git clone 'https_url'
+	npm install
+	'npm install -g json-server'
+	Run 'json-server --watch ./src/app/employeeList.json' to run the local server
+	npm start
+	git checkout 'branch_name' (to check the particular phase)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Server should run on http://localhost:3000/employeeList (In case the url changes, Please change the url variable with the current url in app.service.ts)
+App should run on http://localhost:4200/
 
-## Code scaffolding
+## Pre-requisite
+	install json server
+	node should be installed
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
