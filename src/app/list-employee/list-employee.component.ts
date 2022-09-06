@@ -1,22 +1,19 @@
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core'
-import { MatPaginator } from '@angular/material/paginator'
-import { Inject } from '@angular/core'
+import {  Component } from '@angular/core'
 import {
   MatDialogRef,
   MatDialog,
-  MAT_DIALOG_DATA,
 } from '@angular/material/dialog'
 import { AppService } from '../app.service'
 import { MatSnackBar } from '@angular/material/snack-bar'
 import { LiveAnnouncer } from '@angular/cdk/a11y'
-import { MatSort, Sort } from '@angular/material/sort'
+import {  Sort } from '@angular/material/sort'
 import { IEmployee } from '../interfaces/employee'
 @Component({
   selector: 'app-list-employee',
   templateUrl: './list-employee.component.html',
   styleUrls: ['./list-employee.component.scss'],
 })
-export class ListEmployeeComponent implements AfterViewInit {
+export class ListEmployeeComponent {
   //variable declaration
   displayedColumns: string[] = [
     'Company Name',
@@ -35,13 +32,6 @@ export class ListEmployeeComponent implements AfterViewInit {
   ) {
     //show list of companies on the screen initally
     this.listCompanies()
-  }
-  @ViewChild(MatPaginator) paginator!: MatPaginator
-  @ViewChild(MatSort) sort!: MatSort
-
-  ngAfterViewInit() {
-    // this.employee.paginator = this.paginator
-    // this.employee.sort = this.sort;
   }
 
   //function to call list of Companies
@@ -88,7 +78,6 @@ export class ListEmployeeComponent implements AfterViewInit {
 })
 export class ConfirmationDialogue {
   constructor(
-    @Inject(MAT_DIALOG_DATA) private data: any,
     private dialogRef: MatDialogRef<ConfirmationDialogue>,
   ) {}
   onConfirmClick(): void {
